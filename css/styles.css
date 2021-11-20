@@ -375,11 +375,40 @@ footer li {
         display: inline-block;
         margin-left: auto;
         margin-right: 65px;
+        margin-top: 10px;
     }
 
-    #menu img {
-        width: 50px;
-        padding: 16px 12px;
+    #menu div {
+        width: 45px;
+        height: 4px;
+        background-color: #FFF;
+        display: block;
+        margin: 8px 24px;
+    }
+    
+    .menu-hide {
+        background-color: #fa7cb6;
+        width: 300px;
+        right: 8px;
+        height: 100vh;
+        position: fixed;
+        z-index: 100;
+        top: 75px;
+    }
+
+    .menu-hide li {
+        list-style-type: none;
+        padding: 24px 20px;
+        text-align: center;
+        font-family: ropa-soft-pro,sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 18px;
+    }
+
+    .menu-hide li a {
+        color: #FFF;
+        text-decoration: none;
     }
 
     .card {
