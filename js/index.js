@@ -1,1 +1,3 @@
-console.log("Your index.js files is loaded correctly!")
+$('#menu').click(function(){
+    $('.menu-hide').toggleClass('show');
+});

@@ -391,9 +391,8 @@ footer li {
     }
     
     .menu-hide {
-        background-color: #fa7cb6;
         width: 300px;
-        right: 8px;
+        right: -300px;
         height: 100vh;
         position: fixed;
         z-index: 100;
@@ -413,6 +412,11 @@ footer li {
     .menu-hide li a {
         color: #FFF;
         text-decoration: none;
+    }
+
+    .menu-hide .show {
+        right: 8px;
+        background-color: #fa7cb6;
     }
 
     .card {
