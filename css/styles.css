@@ -44,6 +44,10 @@ ul {
     text-align: right;
 }
 
+.menu-hide {
+    display: none;
+}
+
 /* Hero Section */
 .heroimg {
     height: 600px;
