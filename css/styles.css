@@ -414,7 +414,7 @@ footer li {
         text-decoration: none;
     }
 
-    .menu-hide .show {
+    .menu-hide.show {
         right: 8px;
         background-color: #fa7cb6;
     }
