@@ -1,5 +1,5 @@
 $(document).ready(function(){
 $('#menu').click(function(){
-    $('.menu-hide').toggleClass('show');
+    $('.menu-hide').show();
 });
 });
