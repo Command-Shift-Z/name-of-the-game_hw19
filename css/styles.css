@@ -116,6 +116,9 @@ p {
     font-style: normal;
 }
 
+
+
+
 /*Top 10 Page*/
 .top10flex {
     display: flex;
@@ -212,8 +215,15 @@ p {
     margin: 16px 4px;
 }
 
+
+
+
+
+
+
 /*Game Type Page*/
 #gameTypeGrid {
+    padding: 50px 75px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:  400px 400px 400px;
@@ -336,6 +346,10 @@ footer li {
 /*Media Queries*/
 
 @media only screen and (max-width: 1200px) {
+    #gameTypeGrid {
+        padding: 12px 0px;
+    }
+
     .type-content {
         padding: 24px 32px; 
     }
@@ -392,11 +406,13 @@ footer li {
     
     .menu-hide {
         width: 300px;
-        right: -300px;
+        right: 8px;
         height: 100vh;
         position: fixed;
         z-index: 100;
         top: 75px;
+        background-color: #fa7cb6;
+        transition: all .6s ease-in-out;
     }
 
     .menu-hide li {
